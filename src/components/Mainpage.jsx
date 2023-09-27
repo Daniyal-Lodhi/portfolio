@@ -78,7 +78,7 @@ const Mainpage = () => {
             </div>
           </div>
           <div className='overflow-hidden'>
-            <img src={merngif} alt="merngiph" data-aos='fade-left' className='sm:h-80 rounded-lg  sm:w-88 ' />
+            <img src={merngif} alt="merngiph" data-aos='fade-left' className='sm:h-80 rounded-lg sm:mt-0 mt-5  sm:w-88 ' />
           </div>
         </div>
       </div>
