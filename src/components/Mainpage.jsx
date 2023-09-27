@@ -66,7 +66,7 @@ const Mainpage = () => {
         <Navbar />
         <div className='sm:flex-row sm:space-x-40  border-white flex flex-col    px-3  sm:px-10 sm:mt-28 mt-36    justify-center sm:justify-between sm:text-left text-center leading-4 items-center space-y-5 sm:space-y-0 '>
           <div >
-            <h1 className='text-yellow-100 text fontSize text-2xl fontL font-light '>Hey folks! I'm <br /> <span className='font-bold glow fontM '>Daniyal Lodhi</span> <br /> and I am a professional <br /> <span className='text-green-400'>M</span><span className='text-orange-300'>E</span><span className='text-blue-400'>R</span><span className='text-green-300'>N</span> stack developer </h1>
+            <h1 className='text-yellow-100 text fontSize sm:text-2xl text-3xl fontL font-light '>Hey folks! I'm <br /> <span className='font-bold glow fontM '>Daniyal Lodhi</span> <br /> and I am a professional <br /> <span className='text-green-400'>M</span><span className='text-orange-300'>E</span><span className='text-blue-400'>R</span><span className='text-green-300'>N</span> stack developer </h1>
             <div className='flex justify-center sm:justify-start sm:text-lg fontL text-white items-center space-x-5 mt-4 text-sm sm:'>
               <a className='bg1 text-gray-50 hover:bg-pink-800 px-3 py-2 rounded-md' href='#About' >
                 About me
