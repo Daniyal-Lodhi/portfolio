@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center bg-transparent justify-between mx-auto px-4 py-2 sm:py-3 ">
           <p  className="flex seesaw  items-center bg-transparent">
             {/* bg-gradient-to-r from-blue-500 to-purple-500 */}
-            <span className=" text-transparent bg-clip-text  text-yellow-100  self-center text-xl font-semibold whitespace-nowrap fontM font-light sm:font-extrabold">{"<Daniyal />"}</span>
+            <span className=" text-transparent bg-clip-text  text-yellow-100  self-center text-xl font-semibold whitespace-nowrap fontL font-light sm:font-extrabold">{"<Daniyal />"}</span>
           </p>
           {/* button */}
           <div onClick={myFunction} id='button'>
@@ -43,7 +43,7 @@ const Navbar = () => {
           </div>
 
           <div className={`w-full md:block md:w-auto  overflow-hidden md:mr-6 space-x-10 ${Class} `} id="navbar-default" >
-            <ul className=" fontM font-medium text-white flex flex-col items-center p-4 md:p-0 mx-auto mt-4  border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-12 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className=" fontL font-medium text-white flex flex-col items-center p-4 md:p-0 mx-auto mt-4  border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-12 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a href="#" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500  block py-2 md:py-0  pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent text-white" aria-current="page">Home</a>
               </li>
